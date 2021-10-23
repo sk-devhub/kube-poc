@@ -19,7 +19,7 @@ About Application
 1. Install Docker for Desktop
 2. Install the Kubernetes Dashboard (accessed via Kubeproxy, secrets). Access the dashboard by running kubeproxy.
 3. Install the Postgres DB cluster via operator
-4. Helm install sample application # kube-tutorial
+4. Helm install sample application # kube-tutorial helm install web-stack ./web-stack-chart
 
 ## Prerequetie
 1. Make Kubernetes cluster up and running (For windows Docker for Desktop)
